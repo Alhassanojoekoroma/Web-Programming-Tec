@@ -26,5 +26,4 @@ Next steps (suggested):
 
 If you want, I can now:
 - Implement a `players.html` UI that talks to `php/players.php` (CRUD)
-- Implement registration/login pages and wire them to `php/auth.php`# Web-Programming-Tec
-- 
+- Implement registration/login pages and wire them to `php/auth.php`
