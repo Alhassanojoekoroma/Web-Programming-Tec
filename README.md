@@ -9,10 +9,10 @@ Getting started (Windows, using XAMPP):
 3. Copy this folder into your XAMPP `htdocs` directory, for example `C:\xampp\htdocs\streetbull`.
 4. Import the SQL schema: open `http://localhost/phpmyadmin`, create the database (or import `sql/schema.sql`).
 5. Edit `php/config.php` to match your DB credentials (default is `root` with empty password for XAMPP).
-6. Visit the site at `http://localhost/streetbull/index.html`.
+6. Visit the site at `http://localhost/streetbull/index.php`.
 
 Files added:
-- `index.html` — basic homepage
+- `index.php` — basic homepage
 - `css/styles.css` — design tokens and basic layout
 - `js/main.js` — small frontend helper
 - `php/` — PHP endpoints: `config.php`, `db.php`, `auth.php`, `players.php`, `assignments.php`
@@ -27,3 +27,4 @@ Next steps (suggested):
 If you want, I can now:
 - Implement a `players.html` UI that talks to `php/players.php` (CRUD)
 - Implement registration/login pages and wire them to `php/auth.php`
+
